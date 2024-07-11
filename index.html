@@ -1,63 +1,107 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>COMPANY Phishing</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-	<style type="text/css">.header{
-    background-color: #fff;
-  }
-  .navLink{
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  b{
-    color:#EF5350;
-  }
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPANY Phishing</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-bottom: 1px solid #e7e7e7;
+        }
+        .header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        .header b {
+            color: #EF5350;
+            font-size: 1.5em;
+        }
+        .jumbotron {
+            background-color: #fff;
+            border: 1px solid #e7e7e7;
+            border-radius: 0.3rem;
+            padding: 30px;
+        }
+        .tip {
+            margin-top: 30px;
+            border: 1px solid #e7e7e7;
+            border-radius: 0.3rem;
+            padding: 20px;
+            background-color: #fff;
+            height: 280px;
+            overflow-y: auto;
+        }
+        .tip h1 {
+            font-size: 1.5em;
+            color: #007bff;
+        }
+        .tip h2 {
+            font-size: 1.25em;
+            color: #495057;
+        }
+        .tip p {
+            font-size: 1em;
+            color: #6c757d;
+        }
+        .tip img {
+            margin-top: 10px;
+            max-width: 100%;
+        }
+
+        .bottom-buffer {
+          margin-bottom: 80px;
+          
+        }
+    </style>
 </head>
 <body>
-<div class="header" style="text-align:left;">
-<div class="navLink">
-<h3 style="margin:0;"><img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Asia_United_Bank_logo.svg/2560px-Asia_United_Bank_logo.svg.png" /><b> Phishing Test</b></h3>
-</div>
-</div>
+    <header class="header d-flex align-items-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Asia_United_Bank_logo.svg/2560px-Asia_United_Bank_logo.svg.png" alt="Company Logo">
+        <b>Phishing Test</b>
+    </header>
 
-<div class="container" style="text-align:center">
-<div class="jumbotron">
-<h2>You clicked on a simulated phishing test.</h2>
+    <main class="container my-5">
+        <div class="jumbotron text-center">
+            <h2>You clicked on a simulated phishing test.</h2>
+            <h3>Here are some tips to help you stay safer in the future</h3>
+        </div>
 
-<h3>Here are some tips to help you stay safer in the future</h3>
-</div>
+        <div class="row bottom-buffer">
+            <div class="col-md-4">
+                <div class="tip">
+                    <h1>Tip #1</h1>
+                    <h2>Stop, Look, Think</h2>
+                    <p>Did anything look out of the ordinary? Did you recognize the sender's address? Was it similar but not the same as an official email?</p>
+                </div>
+            </div>
 
-<div class="row">
-<div class="col-md-4">
-<h1>Tip: #1</h1>
+            <div class="col-md-4">
+                <div class="tip">
+                    <h1>Tip #2</h1>
+                    <h2>Do you spot a red flag?</h2>
+                    <p>At AUB, any email from an external sender should have a caution message at the very top.</p>
+                </div>
+            </div>
 
-<h2>Stop, Look, Think</h2>
+            <div class="col-md-4">
+                <div class="tip">
+                    <h1>Tip #3</h1>
+                    <h2>When in doubt, throw it out</h2>
+                    <p>If you ever think that an email is suspicious, it is better to err on the side of caution. Forward it to customercare@aub.com.ph</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Asia_United_Bank_logo.svg/2560px-Asia_United_Bank_logo.svg.png" alt="Red Flag Banner" height="55" width="200">
+          <p style="font-size:1.2em;">AUB Customer Care Team <br> customercare@aub.com.ph&gt;</p>
+        </div>
+    </main>
 
-<p>Did anything look out of the ordinary? Did you recognize the senders address? Was it similar but not the same as an offical email?</p>
-
-<p style="font-size:1.2em;">AUB Customer Care Team&nbsp;&lt;customercare@aub.com.ph&gt;</p>
-</div>
-
-<div class="col-md-4">
-<h1>Tip: #2</h1>
-
-<h2>Do you spot a red flag?</h2>
-
-<p>At AUB,&nbsp;any email from an external sender should have a caution message at the very top. Do you see this banner?</p>
-<img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Asia_United_Bank_logo.svg/2560px-Asia_United_Bank_logo.svg.png" width="200" /></div>
-
-<div class="col-md-4">
-<h1>Tip: #3</h1>
-
-<h2>When in doubt throw it out</h2>
-
-<p>If you ever think that an email is suspicous it is better to err on the side of caution. Forward it to customercare@aub.com.ph</p>
-</div>
-</div>
-</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
